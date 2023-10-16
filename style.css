@@ -1,52 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    height: 100vh;
-    background: linear-gradient(111deg, #955FBA 10.21%, #CEA2D0 90.49%); 
-    display: flex;  
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: rob;
+  height: 100vh;
+  background: linear-gradient(111deg, #955fba 10.21%, #cea2d0 90.49%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: rob;
 }
-.top  {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .left-side {
-    width: 788px;
-    height: 700px;
-    border-radius: 50px 0px 0px 50px;
-    background: #F3F4F6;
+  width: 788px;
+  height: 700px;
+  border-radius: 50px 0px 0px 50px;
+  background: #f3f4f6;
 }
-.buttom {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.bottom {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .right-side {
-    width: 788px;
-    height: 700px;
-    border-radius: 0px 50px 50px 0px;
-    background: #FFF;
+  width: 788px;
+  height: 700px;
+  border-radius: 0px 50px 50px 0px;
+  background: #fff;
 }
-.left-buttom {
-width: 788px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
+
+.left-bottom {
+  width: 788px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.right-buttom {
-    width: 788px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+
+.right-bottom {
+  width: 788px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
 }
 .button-opacity {
-padding: 20px;
-border-radius: 20px;
-border: ;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
 }
