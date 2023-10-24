@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   height: 100vh;
   background: linear-gradient(111deg, #955fba 10.21%, #cea2d0 90.49%);
@@ -6,7 +6,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: rob;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+
 }
 .top {
   display: flex;
@@ -19,6 +21,10 @@ body {
   height: 700px;
   border-radius: 50px 0px 0px 50px;
   background: #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .bottom {
   padding: 20px;
@@ -39,6 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  color: #FFF;
 }
 
 .right-bottom {
@@ -46,7 +53,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 20px;
+  color: #FFF;
 }
 .button-opacity {
   padding: 20px;
@@ -54,4 +62,105 @@ body {
   border: 1px solid #fff;
   display: flex;
   flex-direction: row;
+  gap: 15px;
+  font-size: 25px;
+}
+
+.button-opacity i {
+  font-size: 30px;
+}
+
+
+.monobank-title {
+  color: #000;
+font-family: Roboto;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+flex-direction: column;
+}
+
+/* .img {
+  width: 421.714px;
+height: 404px;
+flex-shrink: 0;
+} */
+
+.owner {
+  width: 234px;
+height: 25px;
+flex-shrink: 0;
+color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.info-about-owner {
+  width: 417px;
+  height: 40px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.extra-info-about-owner {
+  width: 642px;
+height: 62px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.center-bottom {
+  width: 265px;
+height: 103px;
+border-radius: 30px;
+background: #FFF;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+}
+
+.money {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.money div:nth-child(1){
+  color: #999;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.money div:nth-child(2){
+  color: #000;
+text-align: center;
+font-family: Roboto;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+}
+
+.center-bottom i {
+  font-size: 30px;
 }
